@@ -1,0 +1,57 @@
+[versions]
+activityKtx = "1.10.1"
+agp = "8.5.0"
+decoro = "1.5.2"
+fragmentKtx = "1.8.6"
+koinCore = "2.1.6"
+koinCoreVersion = "2.1.6"
+kotlin = "1.9.0"
+coreKtx = "1.15.0"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+lifecycleExtensions = "2.2.0"
+material = "1.12.0"
+roomCompiler = "2.6.1"
+roomVersion = "2.6.0"
+
+[libraries]
+androidx-activity-ktx = { module = "androidx.activity:activity-ktx", version.ref = "activityKtx" }
+androidx-core = { module = "androidx.core:core", version.ref = "coreKtx" }
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-fragment-ktx = { module = "androidx.fragment:fragment-ktx", version.ref = "fragmentKtx" }
+androidx-lifecycle-extensions = { module = "androidx.lifecycle:lifecycle-extensions", version.ref = "lifecycleExtensions" }
+androidx-lifecycle-livedata-ktx = { module = "androidx.lifecycle:lifecycle-livedata-ktx", version.ref = "lifecycleExtensions" }
+androidx-lifecycle-runtime-ktx = { module = "androidx.lifecycle:lifecycle-runtime-ktx", version.ref = "lifecycleExtensions" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleExtensions" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomVersion" }
+androidx-room-compiler-v261 = { module = "androidx.room:room-compiler", version.ref = "roomCompiler" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomVersion" }
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomVersion" }
+androidx-room-testing = { module = "androidx.room:room-testing", version.ref = "roomVersion" }
+decoro = { module = "ru.tinkoff.decoro:decoro", version.ref = "decoro" }
+insert-koin-koin-androidx-ext = { module = "io.insert-koin:koin-androidx-ext", version.ref = "koinCoreVersion" }
+insert-koin-koin-androidx-fragment = { module = "io.insert-koin:koin-androidx-fragment", version.ref = "koinCoreVersion" }
+insert-koin-koin-androidx-scope = { module = "io.insert-koin:koin-androidx-scope", version.ref = "koinCoreVersion" }
+insert-koin-koin-androidx-viewmodel = { module = "io.insert-koin:koin-androidx-viewmodel", version.ref = "koinCoreVersion" }
+insert-koin-koin-core = { module = "io.insert-koin:koin-core", version.ref = "koinCoreVersion" }
+insert-koin-koin-core-ext = { module = "io.insert-koin:koin-core-ext", version.ref = "koinCoreVersion" }
+insert-koin-koin-test = { module = "io.insert-koin:koin-test", version.ref = "koinCoreVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+koin-androidx-ext = { module = "org.koin:koin-androidx-ext", version.ref = "koinCore" }
+koin-androidx-fragment = { module = "org.koin:koin-androidx-fragment", version.ref = "koinCore" }
+koin-androidx-scope = { module = "org.koin:koin-androidx-scope", version.ref = "koinCore" }
+koin-androidx-viewmodel = { module = "org.koin:koin-androidx-viewmodel", version.ref = "koinCore" }
+koin-core = { module = "org.koin:koin-core", version.ref = "koinCore" }
+koin-core-ext = { module = "org.koin:koin-core-ext", version.ref = "koinCore" }
+koin-test = { module = "org.koin:koin-test", version.ref = "koinCore" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+

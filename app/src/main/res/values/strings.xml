@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="fragment_contacts_title">Contacts</string>
+    <string name="fragment_add_contact_title">Create</string>
+    <string name="fragment_edit_contact_title">Edit</string>
+    <string name="contact_name">Name</string>
+    <string name="contact_phone_number">Phone</string>
+    <string name="contact_email">Email</string>
+    <string name="save">Save</string>
+    <string name="search_bar_hint">Search</string>
+</resources>

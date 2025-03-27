@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Task1</string>
+    <string name="fragment_contacts_title">Контакты</string>
+    <string name="fragment_add_contact_title">Создать</string>
+    <string name="fragment_edit_contact_title">Изменить</string>
+    <string name="contact_name">Имя</string>
+    <string name="contact_phone_number">Телефон</string>
+    <string name="contact_email">Почта</string>
+    <string name="save">Сохранить</string>
+    <string name="search_bar_hint">Поиск</string>
+</resources>

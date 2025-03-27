@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingHorizontal="24dp"
+    android:paddingVertical="8dp">
+
+    <TextView
+        android:id="@+id/tv_contact_item_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Иванов Иван Иванович"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@id/iv_contact_item_photo"
+        app:layout_constraintEnd_toStartOf="@id/iv_contact_item_edit"
+        app:layout_constraintStart_toEndOf="@id/iv_contact_item_photo"
+        app:layout_constraintTop_toTopOf="@id/iv_contact_item_photo"
+        android:layout_marginHorizontal="12dp"/>
+
+    <ImageView
+        android:id="@+id/iv_contact_item_photo"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:src="@drawable/circle_contact_list_item"/>
+
+    <TextView
+        android:id="@+id/tv_contact_item_initials"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:text="И"
+        android:textColor="@color/white"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="@+id/iv_contact_item_photo"
+        app:layout_constraintEnd_toEndOf="@+id/iv_contact_item_photo"
+        app:layout_constraintStart_toStartOf="@+id/iv_contact_item_photo"
+        app:layout_constraintTop_toTopOf="@+id/iv_contact_item_photo"
+        android:gravity="center"/>
+
+    <ImageView
+        android:id="@+id/iv_contact_item_edit"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:src="@drawable/baseline_edit_24"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
