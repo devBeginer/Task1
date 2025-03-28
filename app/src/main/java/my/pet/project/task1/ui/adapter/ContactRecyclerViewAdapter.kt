@@ -33,7 +33,7 @@ class ContactRecyclerViewAdapter(
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.textViewName.text = dataSet[position].name
-        holder.textViewInitials.text = dataSet[position].name.substring(0,1)
+        holder.textViewInitials.text = dataSet[position].name.substring(0,1).uppercase()
     }
 
     inner class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {

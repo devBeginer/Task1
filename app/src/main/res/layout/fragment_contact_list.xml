@@ -30,7 +30,7 @@
         android:id="@+id/search_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:hint="Поиск">
+        android:hint="@string/search_bar_hint">
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/rv_search_suggestions"
             android:layout_width="match_parent"
